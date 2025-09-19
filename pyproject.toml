@@ -1,0 +1,13 @@
+[project]
+name = "yolo-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.3.3",
+    "opencv-python>=4.11.0.86",
+    "pre-commit>=4.3.0",
+    "ruff>=0.13.1",
+    "ultralytics>=8.3.202",
+]
