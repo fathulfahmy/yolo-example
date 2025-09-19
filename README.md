@@ -90,14 +90,13 @@ This repository contains a collection of example applications using Ultralytics 
    ```sh
    git clone https://github.com/fathulfahmy/yolo-example.git
    ```
-2. Install packages
+2. Navigate to the project directory
+   ```sh
+   cd yolo-example
+   ```
+3. Install packages
    ```sh
    pip install .
-   ```
-3. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin fathulfahmy/yolo-example
-   git remote -v
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,7 +149,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the project
-2. Create your feature branch (`git checkout -b feat/amazing-Feature`)
+2. Create your feature branch (`git checkout -b feat/amazing-feature`)
 3. Commit your changes (`git commit -m 'feat: add some amazing feature'`)
 4. Push to the branch (`git push origin feat/amazing-feature`)
 5. Open a pull request
